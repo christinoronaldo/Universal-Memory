@@ -9,12 +9,8 @@ project:
   description: "A 16-byte universal memory array combining RAM and persistent storage."
   language: "Verilog"
   clock_hz: 50000000
-
-# How many tiles your design occupies
-tiles: "1x1"
-
-# Top module name
-top_module: "tt_um_universal_memory"
+  tiles: "1x1"
+  top_module: "tt_um_universal_memory"
 
 # Pinout definition for the datasheet
 pinout:
