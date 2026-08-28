@@ -1,0 +1,19 @@
+{
+  "DESIGN_NAME": "tt_um_universal_memory",
+  "VERILOG_FILES": "dir::tt_um_universal_memory.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 20,
+  "KLAYOUT_XOR_IGNORE_LAYERS": ["235/4"],
+
+  "_comment_synth": "Area-optimized synthesis strategy per Day 3 placement fix. AREA 0 is the most aggressive area preset; combined with resource sharing, this reduces cell count from the flattened decoder/mux/register logic before placement ever sees it.",
+  "SYNTH_STRATEGY": "AREA 0",
+  "SYNTH_SHARE_RESOURCES": 1,
+  "SYNTH_NO_FLAT": false,
+
+  "_comment_placement": "Target density kept conservative (0.45) now that the 16-word array (128 flops) brings projected utilization to ~56%. This leaves headroom for clock-tree cells, decap, and tap/fill cells during CTS and detailed routing.",
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY": 0.45,
+
+  "DIE_AREA": "0 0 160 100",
+  "FP_PDN_CORE_RING": false
+}

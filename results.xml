@@ -1,0 +1,10 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="42" />
+    <testcase name="test_system_initialization" classname="test" file="/mnt/c/Users/dhars/Desktop/Semiconductor/matters/src/test.py" lineno="117" time="0.01537322998046875" sim_time_ns="21.0" ratio_time="1366.010918114144" />
+    <testcase name="test_single_and_sequential_read_write" classname="test" file="/mnt/c/Users/dhars/Desktop/Semiconductor/matters/src/test.py" lineno="145" time="0.026778221130371094" sim_time_ns="471.0" ratio_time="17588.92040314826" />
+    <testcase name="test_persistence_mode_retains_data" classname="test" file="/mnt/c/Users/dhars/Desktop/Semiconductor/matters/src/test.py" lineno="198" time="0.011199951171875" sim_time_ns="130.99999999999994" ratio_time="11696.479564032692" />
+    <testcase name="test_volatile_clear_without_persist" classname="test" file="/mnt/c/Users/dhars/Desktop/Semiconductor/matters/src/test.py" lineno="236" time="0.0043888092041015625" sim_time_ns="131.0" ratio_time="29848.6431986093" />
+    <testcase name="test_ce_and_ena_gating" classname="test" file="/mnt/c/Users/dhars/Desktop/Semiconductor/matters/src/test.py" lineno="271" time="0.009288311004638672" sim_time_ns="91.0" ratio_time="9797.260228964526" />
+  </testsuite>
+</testsuites>

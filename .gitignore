@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+sim_build/
+runs/
+
+*.log
+*.tmp
+
+.vscode/
