@@ -1,4 +1,6 @@
 --- 
+yaml_version: 6
+
 # TinyTapeout project information
 project:
   urn: "empty"
@@ -45,5 +47,3 @@ pinout:
   uio[5]: "write_enable"
   uio[6]: "chip_enable"
   uio[7]: "persist_mode"
-
-  yaml_version: 6
